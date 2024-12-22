@@ -1,0 +1,35 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e9ecef !important; /* Daha açık bir arka plan rengi */
+}
+
+/* İçerik Kutusu */
+.dashboard-content {
+    background: #ffffff !important; /* Beyaz arka plan */
+    padding: 30px 40px;
+    border-radius: 10px; /* Köşeler yumuşak */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    color: #343a40 !important; /* Daha koyu gri */
+    font-size: 24px;
+}
+
+/* Paragraf */
+p {
+    color: #6c757d !important; /* Orta koyu gri */
+    font-size: 16px;
+}
+
+/* Yükleniyor Yazısı */
+.loading-text {
+    font-size: 18px;
+    color: #17a2b8 !important; /* Daha yumuşak mavi */
+}

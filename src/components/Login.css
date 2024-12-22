@@ -1,0 +1,114 @@
+/* Genel sayfa düzeni */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Login form */
+.login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Başlık stili */
+.login-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Input grupları */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label ve input düzeni */
+.input-group label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    background-color: black!important;  /* Arka plan siyah */
+    color: white;  /* Yazı rengi beyaz */
+    border: 1px solid #ccc;  /* Kenarlık */
+    padding: 10px;  /* İç boşluk */
+    margin-bottom: 10px;  /* Alt boşluk */
+    border-radius: 5px;  /* Kenarları yuvarlatma */
+    width: 100%;  /* Genişlik */
+}
+
+/* Submit button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.login-button:active {
+    background-color: #388e3c;
+}
+
+/* Hata mesajı */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Optional: Responsive */
+@media (max-width: 480px) {
+    .login-form {
+        padding: 20px;
+        width: 90%;
+    }
+}
